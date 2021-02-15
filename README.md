@@ -3,6 +3,6 @@ The multi robot path planning is an extensively researched field. Here, we imple
 ## Evolutionary Algorithm based strategy
 This strategy is divided into Global Path Planning and Local Path Planning
 # Global Path Planning
-In this, the details of the [Environment](/Images/Environment.jpg) filled with obstacles is considered. Voronoi Tessellation of this environment provides us with the network of safe routes the robotic swarm can take to avoid obstacles. Then Dijkstra's algorithm was implemented to obtain the shortest safe path to the target from initial position
+In this, the details of the [Environment](/Images/Environment.jpg) filled with obstacles is considered. Voronoi Tessellation of this environment provides us with the [network](/Images/Tessellated.jpg) of safe routes the robotic swarm can take to avoid obstacles. Then Dijkstra's algorithm was implemented to obtain the [shortest safe path](/Images/shortest_safe.jpg)to the target from initial position
 
 
