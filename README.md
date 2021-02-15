@@ -5,4 +5,4 @@ This strategy is divided into Global Path Planning and Local Path Planning
 # Global Path Planning
 In this, the details of the environment filled with obstacles is considered. Voronoi Tessellation of this environment provides us with the network of safe routes the robotic swarm can take to avoid obstacles. Then Dijkstra's algorithm was implemented to obtain the shortest safe path to the target from initial position
 
-![](Images/Environment.jpg, width = 100)
+![](/Images/Environment.jpg)
