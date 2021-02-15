@@ -10,11 +10,4 @@ After obtaining the optimum path from the global path planner, Evolutionary Algo
 Overall behavior of robot constitutes several subbehaviors. They are seeking goal, avoiding collision with robot nearby and avoiding obstacle. Each robot has a velocity vector which is a sum of all these characteristics depending upon their weights. Weights of these vectors can be adjusted manually depending on the environment or can be evolved using
 a genetic algorithm. Here we manually adjusted the weights based on the environment.
 # Comparision
-Genetic algorithm gives optimal position of robots in swarm at any particular position. Path obtained is error free as compared to behavior based. Genetic
-algorithm-based swarm maintenance is not smooth, as GA is run at every time step to obtain optimal distance of all robots in swarm. This genetic algorithm is taking
-higher runtime than behavior based for higher number of robots but the results are error free and path formed from GA is free of collisions. All robots are getting
-updated at single time step. In behavior based more precise control of swarm is observed, But weightage of individual behavior changes for different obstacle environment. In
-some cases where influence of multiple vectors on velocity, is causing the robot to collide with obstacle. In some cases, robot is colliding with the obstacle because
-it is following goal seeking, collision avoidance and obstacle avoidance behavior at same time step. This is due to weightage of collision avoidance among robots
-and obstacle avoidance. For higher number of robots, Swarm maintenance is not good and robots start to collide due multiple robot influence for collision avoidance. Hence it needs more careful tuning. Only one robot position is updated at single time step, which is particularly disadvantageous when robot is heading towards a stationary robot in swarm.
-
+Both the algorithms are good in their own way. Path planning used for GA can be improved further to get better optimal path using better algorithms other than Voronoi tessellation. Intermediate goal points needs to be increased for smooth transition in the case of GA based approach. Though GA gives better results in terms of distance travelled by each robot, it can’t be used in practical dynamic applications due to its computational delay.  Behavior based is nice tradeoff between computational time and accuracy
