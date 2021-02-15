@@ -4,3 +4,6 @@ The multi robot path planning is an extensively researched field. Here, we imple
 This strategy is divided into Global Path Planning and Local Path Planning
 # Global Path Planning
 In this, the details of the environment filled with obstacles is considered. Voronoi Tessellation of this environment provides us with the safe routes the robotic swarm can take to avoid obstacles. 
+# Environment
+![Environment](https://user-images.githubusercontent.com/48583202/107952364-a970f900-6f67-11eb-8ebc-be26a018c989.jpg)
+## Tessellated Environment
