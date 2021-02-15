@@ -4,7 +4,4 @@ The multi robot path planning is an extensively researched field. Here, we imple
 This strategy is divided into Global Path Planning and Local Path Planning
 # Global Path Planning
 In this, the details of the environment filled with obstacles is considered. Voronoi Tessellation of this environment provides us with the network of safe routes the robotic swarm can take to avoid obstacles. Then Dijkstra's algorithm was implemented to obtain the shortest safe path to the target from initial position
-Tessellated Environment
-![Tessellated](https://user-images.githubusercontent.com/48583202/107952843-4af84a80-6f68-11eb-881c-3b7e9827c051.jpg)
-Shortest safe path
-![shortest_safe](https://user-images.githubusercontent.com/48583202/107953153-b93d0d00-6f68-11eb-8338-361fe32db388.jpg)
+![Environment](Images)
